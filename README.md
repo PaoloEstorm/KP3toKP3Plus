@@ -16,7 +16,8 @@ The patched firmware brings all the features of the **Kaoss Pad 3+** to the Kaos
 This guide is the result of extensive hardware and software reverse engineering of both devices. The analysis showed that the substantial hardware differences between the KP3 and the KP3+ are:
 
 1. A redesigned power system that runs at 9 V instead of 12 V, with digital power on/off.
-2. Some minor changes to the LED management system.
+2. Some LEDs changed place.
+3. Implemented a jumper to differentiate the boards used for the KAOSSILATOR PRO+.
 
 So, I made a tool [KP3toKP3+](https://claude.ai/public/artifacts/252b6445-3526-4f42-8b56-d16654cf0c4b) that targets the parts of the KP3+ firmware that depend on the KP3+ specific hardware and adapts them via software to the KP3 hardware, making the two devices compatible at the firmware level.
 
