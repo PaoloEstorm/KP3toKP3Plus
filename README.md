@@ -12,7 +12,7 @@ This is a guide to make a patched firmware for the **Korg Kaoss Pad 3**, to be i
 
 ## How it works
 
-This guide is the result of extensive hardware and software reverse engineering of both devices. The analysis showed that the substantial differences between the KP3 and the KP3+ are:
+This guide is the result of extensive hardware and software reverse engineering of both devices. The analysis showed that the substantial hardware differences between the KP3 and the KP3+ are:
 
 1. A redesigned power system that runs at 9 V instead of 12 V, with digital power on/off.
 2. Some minor changes to the LED management system.
