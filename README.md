@@ -24,10 +24,10 @@ So, I made a tool [KP3toKP3+](https://claude.ai/public/artifacts/252b6445-3526-4
 ## Required materials
 
 1. A **Korg Kaoss Pad 3** unit connected via USB
-2. **KAOSS PAD KP3 V2.0 System Updater** (Windows) — [download](https://www.korg.com/us/support/download/software/1/118/1400/)
-(macOs) - [download](https://www.korg.com/us/support/download/software/1/118/1401/)
-3. **KAOSS PAD KP3+ V1.04 System Updater** (Windows) — [download](https://www.korg.com/us/support/download/software/0/124/3090/)
-(macOs) - [download](https://www.korg.com/us/support/download/software/0/124/3091/)
+2. **KAOSS PAD KP3 V2.0 System Updater** (Windows) [download](https://www.korg.com/us/support/download/software/1/118/1400/) - 
+(macOs) [download](https://www.korg.com/us/support/download/software/1/118/1401/)
+3. **KAOSS PAD KP3+ V1.04 System Updater** (Windows) [download](https://www.korg.com/us/support/download/software/0/124/3090/) - 
+(macOs) [download](https://www.korg.com/us/support/download/software/0/124/3091/)
    
 ## The Procedure (Windows)
 
