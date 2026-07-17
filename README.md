@@ -29,24 +29,34 @@ So, I made a tool [KP3toKP3+](https://claude.ai/public/artifacts/252b6445-3526-4
 3. **KAOSS PAD KP3+ V1.04 System Updater** (Windows) [download](https://www.korg.com/us/support/download/software/0/124/3090/) - 
 (macOs) [download](https://www.korg.com/us/support/download/software/0/124/3091/)
    
-## The Procedure (Windows)
+## Procedure (Windows)
 
 1. Extract the contents of `KP3_Updater_0200E2.zip` (KP3 V2.0 System Updater) and `KP3PlusUpdater_0104.zip` (KAOSS PAD KP3+ V1.04 System Updater) into any folder on your PC.
 2. Open [KP3toKP3+](https://claude.ai/public/artifacts/252b6445-3526-4f42-8b56-d16654cf0c4b).
 3. In **Section 1 (KP3 Firmware V2.0)**, press **Select** and choose the file `KP3.VSB`, located in `KP3_Updater_0200E2/System/KP3_0200_Updater/Updater`.
 4. In **Section 2 (KP3+ Firmware V1.04)**, press **Select** and choose the file `KP3Plus.VSB`, located in `KP3PlusUpdater_0104/Updater`.
-5. Press the **Combine** button, then download the patched firmware by clicking **download** in **Section 3 (Combined image)**.
+5. Click the **Combine** button, then download the patched firmware by clicking **download** in **Section 3 (Combined image)**.
 6. Connect the KP3, powered off, via USB and boot it in **IPL mode**: turn on the KP3 while holding **SAMPLE BANK [C]**, **[D]**, and **[SAMPLING]**. The KP3 display will show `IPL`.
 7. Launch `KP3_updater.exe` from `KP3_Updater_0200E2/System/KP3_0200_Updater/Updater`, then click **File → Open** and select the `KP3_to_KP3plus.vsb` (file generated and downloaded from the tool in step 5).
-8. Press **Setting → Force Update** and click **OK** in the warning popup.
-9. If everything is set up correctly, pressing **Update** should start the flashing procedure on the device. **Do NOT disconnect or move the device during the update.** Wait until the process is finished, when a popup confirms the update completed successfully.
+8. Click **Setting → Force Update** and click **OK** in the warning popup.
+9. If everything is set up correctly, clicking **Update** should start the flashing procedure on the device. **Do NOT disconnect or move the device during the update.** Wait until the process is finished, when a popup confirms the update completed successfully and the device shows "END" on the display. 
    If the updater does not detect any device, close the updater, disconnect the KP3, and install the drivers in `KP3_Updater_0200E2/System/KP3_0200_Updater/Driver` by right-clicking `KORGBK64.INF` and selecting **Install**. Once the driver is installed, connect the KP3 in IPL mode and follow the procedure again from step 7.
 10. After flashing the ROM, you MUST reset the EEPROM for correct operation. To do it, power off the KP3, hold **[1] + [2] + [SAMPLING]** and turn on the device. The display will show a blinking `PrLd`. Release the buttons and proceed by pressing **[SAMPLE BANK D]**. Wait 10 seconds while the display shows `Wrt`, and at the end of the process it will show `PoFF`. Turn the device off and on again, and enjoy your new KP3+!
 
 ***Note for Windows users:** If the procedure completed successfully, your device has effectively become a KP3+. So, if you plan to use the Editor application or to use it as a MIDI-USB controller, you'll need the drivers and the KP3+ Editor, both downloadable form the [official support page](https://www.korg.com/us/support/download/product/0/124/).
 
-## The Procedure (macOS)
+## Procedure (macOS)
 
-... work in progress ...
+1. Open the previously downloaded `KP3_Updater_Sept_2007_Intel.dmg` file, enter the `System` folder, right-click the `KP3 Updater` app and select **Show Package Contents**. Copy the `KP3.VSB` file located in `Contents/Resources/vsb/` and paste it into any folder of your choice.
+2. Open the previously downloaded  `KP3PlusUpdater_0104.dmg` file, right-click the `KP3+ Updater` app and select **Show Package Contents**. Copy the `KP3Plus.VSB` file located in `Contents/Resources/vsb/` and paste it into any folder of your choice.
+3. Open [KP3toKP3+](https://claude.ai/public/artifacts/252b6445-3526-4f42-8b56-d16654cf0c4b).
+4. In **Section 1 (KP3 Firmware V2.0)**, press **Select** and choose the file `KP3.VSB`.
+5. In **Section 2 (KP3+ Firmware V1.04)**, press **Select** and choose the file `KP3Plus.VSB`.
+6. Click the **Combine** button, then download the patched firmware by clicking **download** in **Section 3 (Combined image)**.
+7. Rename the patched file from `KP3_to_KP3plus.vsb` to `KP3.VSB` and use it to replace the old `KP3.VSB` file located inside the app `KP3 Updater/Contents/Resources/vsb/`.
+8. Connect the KP3, powered off, via USB and boot it in **IPL mode**: turn on the KP3 while holding **SAMPLE BANK [C]**, **[D]**, and **[SAMPLING]**. The KP3 display will show `IPL`.
+9. Launch the app `KP3 Updater`, click **Setting → Force Update** and click **OK** in the warning popup.
+10. If everything is set up correctly, clicking **Update** should start the flashing procedure on the device. **Do NOT disconnect or move the device during the update.** Wait until the process is finished, when a popup confirms the update completed successfully and the device shows "END" on the display.
+11. After flashing the ROM, you MUST reset the EEPROM for correct operation. To do it, power off the KP3, hold **[1] + [2] + [SAMPLING]** and turn on the device. The display will show a blinking `PrLd`. Release the buttons and proceed by pressing **[SAMPLE BANK D]**. Wait 10 seconds while the display shows `Wrt`, and at the end of the process it will show `PoFF`. Turn the device off and on again, and enjoy your new KP3+!   
 
-**Note for Mac users:** The KP3+ Editor is no longer runnable, since 32-bit applications are no longer supported on macOS as of macOS Catalina (10.15).
+**Note for Mac users:** The KP3/KP3+ Editor is no longer runnable, since 32-bit applications are no longer supported on macOS as of macOS Catalina (10.15).
