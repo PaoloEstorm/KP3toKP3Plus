@@ -60,3 +60,7 @@ So, I made a tool [KP3toKP3+](https://claude.ai/public/artifacts/252b6445-3526-4
 11. After flashing the ROM, you MUST reset the EEPROM for correct operation. To do it, power off the KP3, hold **[1] + [2] + [SAMPLING]** and turn on the device. The display will show a blinking `PrLd`. Release the buttons and proceed by pressing **[SAMPLE BANK D]**. Wait 10 seconds while the display shows `Wrt`, and at the end of the process it will show `PoFF`. Turn the device off and on again, and enjoy your new KP3+!   
 
 **Note for Mac users:** The KP3/KP3+ Editor is no longer runnable, since 32-bit applications are no longer supported on macOS as of macOS Catalina (10.15).
+
+## Disclaimer
+
+This tool and guide are provided for educational and personal use only, as-is and without any warranty. Flashing custom or unofficial firmware carries inherent risks and can potentially brick or permanently damage your device. By following this procedure you acknowledge and accept these risks and proceed entirely at your own risk. I am not responsible for any damage, data loss, or malfunction that may result from the use of this tool or from following this guide.
