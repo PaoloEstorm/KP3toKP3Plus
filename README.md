@@ -31,8 +31,8 @@ So, I made a tool [KP3toKP3+](https://claude.ai/public/artifacts/252b6445-3526-4
 
 1. Extract the contents of `KP3_Updater_0200E2.zip` (KP3 V2.0 System Updater) and `KP3PlusUpdater_0104.zip` (KAOSS PAD KP3+ V1.04 System Updater) into any folder on your PC.
 2. Open [KP3toKP3+](https://claude.ai/public/artifacts/252b6445-3526-4f42-8b56-d16654cf0c4b).
-3. In **Section 1 (KP3 Firmware V2.0)**, press **Select** and choose the file `KP3.VSB`, located in `KP3_Updater_0200E2/System/KP3_0200_Updater/Updater`.
-4. In **Section 2 (KP3+ Firmware V1.04)**, press **Select** and choose the file `KP3Plus.VSB`, located in `KP3PlusUpdater_0104/Updater`.
+3. In **Section 1 (KP3 Firmware V2.0)**, click **Select** and choose the file `KP3.VSB`, located in `KP3_Updater_0200E2/System/KP3_0200_Updater/Updater`.
+4. In **Section 2 (KP3+ Firmware V1.04)**, click **Select** and choose the file `KP3Plus.VSB`, located in `KP3PlusUpdater_0104/Updater`.
 5. Click the **Combine** button, then download the patched firmware by clicking **download** in **Section 3 (Combined image)**.
 6. Connect the KP3, powered off, via USB and boot it in **IPL mode**: turn on the KP3 while holding **SAMPLE BANK [C]**, **[D]**, and **[SAMPLING]**. The KP3 display will show `IPL`.
 7. Launch `KP3_updater.exe` from `KP3_Updater_0200E2/System/KP3_0200_Updater/Updater`, then click **File → Open** and select the `KP3_to_KP3plus.vsb` (file generated and downloaded from the tool in step 5).
