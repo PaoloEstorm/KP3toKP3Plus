@@ -5,7 +5,7 @@ The patched firmware brings all the features of the **Kaoss Pad 3+** to the Kaos
 
 ## Added features
 
-- Improved audio effects
+- Improved classic audio effects
 - 22 brand-new effects (including high-quality compressors and reverbs)
 - Improved MIDI in/out handling
 - SD card support up to 32 GB (versus the KP3's 1 GB maximum)
